@@ -6,3 +6,4 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run: echo "hello ${CIRCLE_USERNAME}" # run the `echo` command
+      - run: echo "CIRCLE CI どうでしょう" # run the `echo` command
